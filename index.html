@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Juliancontreras Portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header"> 
+                    <h1>PORTAFOLIO </h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                       </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/juliancontreraslucero/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/julcontrerass"><i class="fa-brands fa-github"></i></a>
+                       </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Hola! un gusto</p>
+                <h2>Soy <span>Julian Contreras</span>, Full Stack Developer</h2>
+                <p class="descripcion">queres conocerme un poco mas?  </p>
+                <a href="#sobremi">Ir a sobre mi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Julian contreras</span> </h2>
+            <h3>Full Stack Developer</h3>
+            <p>Soy estudiante de desarrollo de software en la UADE y por finalizar desarrollo Full Stack en Soy Henry, Ademas incrementando mis conocimientos en cursos relacionados a la programacion . 
+                Busco desarrollarme y crecer en el ámbito tecnológico y obtener conocimiento en relevamiento e implementación de soluciones para direferentes clientes.</p>
+            <p>Te invito a que le pegues un vistaso a mi Curriculum </p>
+            <a href="./img/CURRICULUM.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">TECH SKILLS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Back end</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Node js-web server-Promise-Express-Testing  </li>
+                    
+                </ul>
+             </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>Front end</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Dom-Css-Es6-Ajax-React-Redux</li>
+                </ul>
+             </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>DBMS-SQL-ORM-Authentication</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Back end</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="back"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Front end</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="front"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="datos"></div>
+            </div>
+        </div>
+      
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/julcontrerass/PI-countries-Henry"><img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Proyecto individual del bootcamp soy henry</h4>
+                    <p> React, Redux, Node, Express y Sequelize</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/julcontrerass/Trabajo-desarrollo-web-uade"><img src="img/protecto4.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Proyecto de la facultad uade</h4>
+                    <p> Html, css y javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://polotop.com/"><img src="img/proyecto2.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Pagina e-commers ayudante</h4>
+                    <p>Wordpress</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://equitop.com.ar/"><img src="img/proyecto3.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Pagina e-commers ayudante</h4>
+                    <p>Wordpress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="contacto">
+         <h2>CONTACTOS:</h2>
+         <div class="redes">
+              <p>Gmail: jjulian.contrerass@gmail</p>
+              <p>Telefono:+54 11 6460-2560</p>
+              <a href="https://github.com/julcontrerass"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/juliancontreraslucero/"><i class="fa-brands fa-linkedin"></i></a>
+              
+        </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
