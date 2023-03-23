@@ -39,3 +39,23 @@ function efectoHabilidades() {
     }
 
 }
+
+const form = document.querySelector("#contact-form");
+const status = document.querySelector("#status");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+
+  emailjs.send('service_kunp9jq', 'template_j1sxoa3', {
+    from_name: formData.get('name'),
+    from_email: formData.get('email'),
+    message: formData.get('message')
+  })
+    .then((response) => {
+      status.textContent = "Mensaje enviado correctamente";
+      form.reset();
+    }, (error) => {
+      status.textContent = error.message;
+    });
+});
