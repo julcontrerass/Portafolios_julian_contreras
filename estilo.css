@@ -22,12 +22,12 @@ html {
   height: 100vh;
 }
 
-a{
-  text-decoration: none;
-}
-
 h3 {
   text-align: center;
+}
+
+a{
+  text-decoration: none;
 }
 
 #inicio .contenido header {
