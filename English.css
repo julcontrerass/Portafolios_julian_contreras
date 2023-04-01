@@ -81,18 +81,6 @@ a{
 #inicio .contenido header .contenido-header .redes a:hover {
   color: #0efd3e;
 }
-#inicio .contenido header .contenido-header .idioma a {
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  margin-left: 10px;
-  transition: 0.5s;
-}
-
-#inicio .contenido header .contenido-header .idioma a:hover {
-  color: #0efd3e;
-}
-
 
 #inicio .contenido header .contenido-header .seleccionado {
   color: #0efd3e;
@@ -701,9 +689,6 @@ footer {
 
 @media screen and (max-width: 800px) {
   .redes {
-    display: none;
-  }
-  .idioma{
     display: none;
   }
   nav {
