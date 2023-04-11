@@ -30,6 +30,17 @@ a{
   text-decoration: none;
 }
 
+.esp{
+  color: #0efd3e;
+  padding: 2px;
+}
+
+.eng{
+  color: white;
+  padding:10px;
+  font-size:x-small;
+}
+
 #inicio .contenido header {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
