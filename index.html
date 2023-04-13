@@ -1,265 +1,334 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Juliancontreras Portfolio</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Juliancontreras Portafolio</title>
-</head>
-
-<body>
+  <body>
     <!-- SECCION I N I C I O -->
     <section id="inicio">
-        <div class="contenido">
-            <header>
-                <div class="contenido-header"> 
-                    <a href="#inicio"><h1>PORTAFOLIO </h1></a>
-                    <nav id="nav" class="">
-                        <ul id="links">
-                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#educacion" onclick="seleccionar(this)">EDUCACION</a></li>
-                            <li><a href="#servicios" onclick="seleccionar(this)">SKILLS</a></li>
-                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
-                            <a href="index.html" class="esp">ESP</a>
-                            <a href="English.html" class="eng"> ENG</a>
-                        </ul>
-                    </nav>
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <a href="#inicio"><h1>PORTFOLIO</h1></a>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#educacion" onclick="seleccionar(this)">EDUCACION</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SKILLS</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a>
+                </li>
+                <a href="index.html" class="esp">ESP</a>
+                <a href="English.html" class="eng"> ENG</a>
+              </ul>
+            </nav>
 
-                    <!-- Icono del menu responsive -->
-                    <div id="icono-nav" onclick="responsiveMenu()">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <!-- <div class="idioma">
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- <div class="idioma">
                         <a href="English.html"><img src="https://img.icons8.com/color/48/null/usa-circular.png"/></i></a>
                         <a href="index.html"><img src="https://img.icons8.com/color/48/null/argentina-circular.png"/></a>
                     </div> -->
 
-                    <div class="redes">
-                        <a href="https://www.linkedin.com/in/juliancontreraslucero/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/julcontrerass"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-            </header>
-            <div class="presentacion">
-                <p class="bienvenida">Hola! un gusto</p>
-                <h2>Soy <span>Julian Contreras</span>, Full Stack Developer</h2>
-                <p class="descripcion">Queres saber mas sobre mi?  </p>
-                <a href="#sobremi">Ir a sobre mi</a>
+            <div class="redes">
+              <a href="https://www.linkedin.com/in/juliancontreraslucero/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/julcontrerass"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Hola! un gusto</p>
+          <h2>Soy <span>Julian Contreras</span>, Full Stack Developer</h2>
+          <p class="descripcion">Queres saber mas sobre mi?</p>
+          <a href="#sobremi">Ir a sobre mi</a>
         </div>
+      </div>
     </section>
 
     <!-- SECCION S O B R E M I -->
     <section id="sobremi">
-        <div class="contenedor-foto">
-            <img src="img/foto.jpg" alt="">
-        </div>
-        <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi</p>
-            <h2 >Hola, Soy <span>Julian contreras</span> </h2>
-            <h3>Full Stack Developer</h3>
-            <p>Soy estudiante de desarrollo de software en la UADE y por finalizar desarrollo Full Stack en Soy Henry, Ademas incrementando mis conocimientos en cursos relacionados a la programacion . 
-                Busco desarrollarme y crecer en el ámbito tecnológico y obtener conocimiento en relevamiento e implementación de soluciones para diferentes clientes.</p>
-            <p>Te invito a que veas mi Curriculum </p>
-            <a href="./img/CURRICULUM.pdf">Descargar CV</a>
-
-        </div>
+      <div class="contenedor-foto">
+        <img src="img/foto.jpg" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, Soy <span>Julian contreras</span></h2>
+        <h3>Full Stack Developer</h3>
+        <p>
+          Soy estudiante de desarrollo de software en la UADE y por finalizar
+          desarrollo Full Stack en Soy Henry, Ademas incrementando mis
+          conocimientos en cursos relacionados a la programacion . Busco
+          desarrollarme y crecer en el ámbito tecnológico y obtener conocimiento
+          en relevamiento e implementación de soluciones para diferentes
+          clientes.
+        </p>
+        <p>Te invito a que veas mi Curriculum</p>
+        <a href="./img/CURRICULUM.pdf">Descargar CV</a>
+      </div>
     </section>
-    
+
     <!-- SECCION E D U C A C I O N-->
     <section class="education" id="educacion">
-        <h3 class="titulo-seccion">Estudios</h3>
-        <div class="row">
-          <div class="column">
-            <div class="box">
-              <div class="year"><i class="fas fa-calendar"></i> 2022 - 2026</div>
-              <h4>Universidad Argentina De Empresas (UADE)</h4>
-              <p>
-                Tecnicatura Universitaria Desarrollo De Software
-              </p>
+      <h3 class="titulo-seccion">Estudios</h3>
+      <div class="row">
+        <div class="column">
+          <div class="box">
+            <div class="year"><i class="fas fa-calendar"></i> 2022 - 2026</div>
+            <h4>Universidad Argentina De Empresas (UADE)</h4>
+            <p>Tecnicatura Universitaria Desarrollo De Software</p>
+          </div>
+          <div class="box">
+            <div class="year">
+              <i class="fas fa-calendar"></i> 5 DICIEMBRE 2022 - 7 ABRIL 2023
             </div>
-             <div class="box">
-               <div class="year"><i class="fas fa-calendar"></i> 5 DICIEMBRE 2022 - 7 ABRIL 2023</div>
-                  <h4>Soy Henry</h4>
-                  <p>Full Stack Deveoper</p>
-               </div>
-            </div>
+            <h4>Soy Henry</h4>
+            <p>Full Stack Deveoper</p>
+            <a href="https://certificates.soyhenry.com/new-cert?id=89ef988454790d7518c713e956cda1948807e1ccfc507c761a83654a2d0dd38c" class="botton">Ver Certificado</a>
+          </div>
         </div>
-      </section> 
-
+      </div>
+    </section>
     <!-- SECCION S E R V I C I O S -->
     <section id="servicios">
-        <h3 class="titulo-seccion">TECH SKILLS</h3>
-        <div class="fila">
-            <div class="servicio">
-                <span class="icono"> <i class="fa-solid fa-code"></i></span>
-                <h4>Back end</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>NodeJs - Sequelize - Express - Testing  </li>
-                </ul>
-             </div>
-            <div class="servicio">
-                <span class="icono"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                <h4>Front end</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>Html5 - Css - Ajax - React Js - React Native - Redux - Hooks - Typescript - Javascript </li>
-                </ul>
-             </div>
-            <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-database"></i></span>
-                <h4>Base de datos</h4>
-                <hr>
-                <ul class="servicios-tag">
-                    <li>MongoDB - PostgreSQL - Firebase</li>
-                </ul>
-            </div>
+      <h3 class="titulo-seccion">TECH SKILLS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"> <i class="fa-solid fa-code"></i></span>
+          <h4>Back end</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>NodeJs - Sequelize - Express - Testing</li>
+          </ul>
         </div>
-        
+        <div class="servicio">
+          <span class="icono"
+            ><i class="fa fa-desktop" aria-hidden="true"></i
+          ></span>
+          <h4>Front end</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>
+              Html5 - Css - Ajax - React Js - React Native - Redux - Hooks -
+              Typescript - Javascript
+            </li>
+          </ul>
         </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-database"></i></span>
+          <h4>Base de datos</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>MongoDB - PostgreSQL - Firebase</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- SECCION L E N G U A J E S -->
     <div class="slider">
-        <div class="slide-track">
-            <div class="slide">
-                <img src="img/icons8-github.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-javascript (1).svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-typescript.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-redux.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-reaccionar.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-postgresql.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-node-js.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-css3.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-html-5.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-oreja.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-tailwindcss.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-mongodb.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-git.svg" alt="">
-            </div>
-            <div class="slide">
-                <img src="img/icons8-gitlab.svg" alt="">
-            </div>
+      <div class="slide-track">
+        <div class="slide">
+          <img src="img/icons8-github.svg" alt="" />
         </div>
+        <div class="slide">
+          <img src="img/icons8-javascript (1).svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-typescript.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-redux.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-reaccionar.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-postgresql.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-node-js.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-css3.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-html-5.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-oreja.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-tailwindcss.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-mongodb.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-git.svg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/icons8-gitlab.svg" alt="" />
+        </div>
+      </div>
     </div>
 
     <!-- SECCION PORTAFOLIO -->
     <section id="portfolio">
-         <h3 class="titulo-seccion">Mis Proyectos</h3>
-        <div class="container-card">
-            <div class="card">
-                <figure>
-                    <img src="img/proyecto1.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>Proyecto individual en soy henry</h3>
-                    <p>Proyecto individial del bootcamp soy henry utilizando todos lo que se vio en el, React, Redux, Node, Express y Sequelize </p>
-                    <a href="https://github.com/julcontrerass/PI-countries-Henry">GitHub</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="img/protecto4.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>Proyecto de la UADE</h3>
-                    <p>Proyecto entrega final en la materia diseño y desarollo web de la Uade con html css y js (no responsive)</p>
-                    <a href="https://github.com/julcontrerass/Trabajo-desarrollo-web-uade">GitHub</a>
-                    <a href="https://proyectouadefinal.up.railway.app/">View</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="img/proyectofinal.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>E-commerce proyecto final soy henry </h3>
-                    <p>Proyecto realizado en el bootcamp Soy Henry con la colaboracion de compañeros del curso</p>
-                    <a href="https://github.com/lauticometti/AirLand">GitHub</a>
-                    <a href="https://airland-9c55f.web.app/snkrs">VIEW</a>
-                </div>
-            </div>
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="container-card">
+        <div class="card">
+          <figure>
+            <img src="img/proyecto1.jpg" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Proyecto individual en soy henry</h3>
+            <p>
+              Proyecto individial del bootcamp soy henry utilizando todos lo que
+              se vio en el, React, Redux, Node, Express y Sequelize
+            </p>
+            <a href="https://github.com/julcontrerass/PI-countries-Henry"
+              >GitHub</a
+            >
+          </div>
         </div>
-        <div class="container-card">
-            <div class="card">
-                <figure>
-                    <img src="img/proyecto2.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>E-commerce</h3>
-                    <p>Fui ayudante en la creacion de este e-commerce utilizando wordpress</p>
-                    <a href="https://polotop.com/">VIEW</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="img/proyecto3.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>E-commerce</h3>
-                    <p>Fui ayudante en la creacion de este e-commerce utilizando wordpress</p>
-                    <a href="https://equitop.com.ar/">VIEW</a>
-                </div>
-            </div>
+        <div class="card">
+          <figure>
+            <img src="img/protecto4.jpg" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Proyecto de la Universidad</h3>
+            <p>
+              Proyecto entrega final en la materia diseño y desarollo web de la
+              Universidad Argentina De Las Empresas utilizando html css y js (no responsive)
+            </p>
+            <a
+              href="https://github.com/julcontrerass/Trabajo-desarrollo-web-uade"
+              >GitHub</a>
+            <a href="https://proyectouadefinal.up.railway.app/">View</a>
+          </div>
         </div>
+        <div class="card">
+          <figure>
+            <img src="img/proyectofinal.jpg" />
+          </figure>
+          <div class="contenido-card">
+            <h3>E-commerce proyecto final soy henry</h3>
+            <p>
+              Proyecto realizado en el bootcamp Soy Henry con la colaboracion de
+              compañeros del curso utilizando todo lo visto en el bootcamp y con nuevas tecnologias como Firebase, MercadoPago o Redux-Toolkit, y el manejo de base de datos no relacionales
+            </p>
+            <a href="https://github.com/lauticometti/AirLand">GitHub</a>
+            <a href="https://airland-9c55f.web.app/snkrs">VIEW</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="card">
+          <figure>
+            <img src="img/proyecto2.jpg" />
+          </figure>
+          <div class="contenido-card">
+            <h3>E-commerce</h3>
+            <p>
+              Fui ayudante en la creacion de este e-commerce utilizando
+              wordpress
+            </p>
+            <a href="https://polotop.com/">VIEW</a>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="img/proyecto3.jpg" />
+          </figure>
+          <div class="contenido-card">
+            <h3>E-commerce</h3>
+            <p>
+              Fui ayudante en la creacion de este e-commerce utilizando
+              wordpress
+            </p>
+            <a href="https://equitop.com.ar/">VIEW</a>
+          </div>
+        </div>
+      </div>
     </section>
-   
+
     <!--WHATSAPP-->
     <div>
-        <a href="https://api.whatsapp.com/send?phone=1164602560" class=whatsapp_float target="_blank" rel="noopener noreferrer">
-            <i  size={28} color="#fff" class="fa-brands fa-whatsapp"></i>
-          </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=1164602560"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i size="{28}" color="#fff" class="fa-brands fa-whatsapp"></i>
+      </a>
     </div>
     <!-- SECCION FOOTER -->
     <section>
-    <footer>
+      <footer>
         <div class="footer-content">
-            <h3>Contactarme </h3>
-            <p>Te invito a que conectemos y si queres comunicate conmigo </p>
-            <ul class="socials">
-                <li><a href="https://github.com/julcontrerass"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/juliancontreraslucero/"><i class="fa fa-linkedin-square"></i></a></li>
-
-            </ul>
-            <p>jjulian.contrerass@gmail.com</p>
+          <h3>Contactarme</h3>
+          <p>Te invito a que conectemos y si queres comunicate conmigo</p>
+          <ul class="socials">
+            <li>
+              <a href="https://github.com/julcontrerass"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/juliancontreraslucero/"
+                ><i class="fa fa-linkedin-square"></i
+              ></a>
+            </li>
+          </ul>
+          <p>jjulian.contrerass@gmail.com</p>
         </div>
         <div class="footer-bottom">
-            <p>copyright &copy;2023 Portafolio. by <span>Julian contreras</span></p>
+          <p>
+            copyright &copy;2023 Portafolio. by <span>Julian contreras</span>
+          </p>
         </div>
-       
-    </footer>
-</section>
+      </footer>
+    </section>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
