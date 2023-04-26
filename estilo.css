@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #f3f3f3;
 }
 
 /* *********************/
@@ -26,19 +27,19 @@ h4 {
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.esp{
+.esp {
   color: #0efd3e;
   padding: 2px;
 }
 
-.eng{
+.eng {
   color: white;
-  padding:10px;
-  font-size:x-small;
+  padding: 10px;
+  font-size: x-small;
 }
 
 #inicio .contenido header {
@@ -103,7 +104,6 @@ a{
 #inicio .contenido header .contenido-header .idioma a:hover {
   color: #0efd3e;
 }
-
 
 #inicio .contenido header .contenido-header .seleccionado {
   color: #0efd3e;
@@ -175,8 +175,7 @@ a{
   margin: auto;
   padding: 100px 15px;
   color: #111135;
-  display: flex; 
-  background-color: #f3f3f3;
+  display: flex;
 }
 
 #sobremi .contenedor-foto {
@@ -185,10 +184,10 @@ a{
 }
 
 #sobremi .contenedor-foto img {
-  padding: 20px;
+  padding: 1px;
   width: 100%;
   border-radius: 20px;
-  background-color: #f3f3f3;
+  background-color: #00000004;
 }
 
 #sobremi .sobremi {
@@ -235,7 +234,7 @@ a{
   text-decoration: none;
   color: #000;
   border-radius: 30px;
-  border: 1px solid #000;
+  border: 1px solid #2f2f2f;
   padding: 10px 20px;
   margin-top: 30px;
   transition: 0.5s;
@@ -248,21 +247,23 @@ a{
 /* *********************/
 /* seccion E D U C A C I O N */
 /* *********************/
-.education .titulo-seccion{
-  padding: 100px 15px;
+.education .titulo-seccion {
+  padding: 100px 17px;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
+  background-color: #ffffff;
 }
 
 .education .row {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
+  background-color: #ffffff;
 }
 
 .education .row .column {
@@ -318,18 +319,17 @@ a{
   padding-top: 0.5rem;
   text-align: center;
 }
-.botton{
-  
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border-radius: 30px;
-    border: 1px solid #000;
-    padding: 0.85em 1.5em;
-    margin-top: 30px;
-    transition: 0.5s;
-    display: flex;
-    justify-content: center;
+.botton {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border-radius: 30px;
+  border: 1px solid #000;
+  padding: 0.85em 1.5em;
+  margin-top: 30px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
 }
 
 .botton:hover {
@@ -348,7 +348,7 @@ a{
 
 #servicios .titulo-seccion {
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
@@ -409,101 +409,7 @@ a{
   font-size: 14px;
   line-height: 22px;
 }
-/* *********************/
-/* seccion S K I L L S */
-/* *********************/
 
-/* .contenedor-skills {
-  background: linear-gradient(#463434cc, rgba(33, 16, 16, 0.8)),
-    url("img/fondo-skills.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  background-position: center center;
-  padding: 100px 0;
-  text-align: center;
-}
-
-.contenedor-skills .skill {
-  max-width: 600px;
-  margin: 30px auto;
-}
-
-.contenedor-skills .skill .info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contenedor-skills .skill .lista {
-  display: inline-block;
-  margin-right: 20px;
-  height: 10px;
-  width: 10px;
-  background-color: #fff;
-}
-
-.contenedor-skills .skill .barra {
-  background-color: #919191;
-  width: 100%;
-  height: 6px;
-  margin: 10px 0px;
-}
-
-.contenedor-skills .skill .barra .barra-progreso1 {
-  background-color: #fff;
-  width: 95%;
-  height: 6px;
-  animation: progreso1 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso2 {
-  background-color: #fff;
-  width: 90%;
-  height: 6px;
-  animation: progreso2 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso3 {
-  background-color: #fff;
-  width: 90%;
-  height: 6px;
-  animation: progreso3 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso4 {
-  background-color: #fff;
-  width: 85%;
-  height: 6px;
-  animation: progreso4 2s forwards;
-}
-
-@keyframes progreso1 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@keyframes progreso2 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
-@keyframes progreso3 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-} */
 .slider {
   background-color: #f3f3f3;
   width: 100%;
@@ -529,105 +435,105 @@ a{
 
 @keyframes scroll {
   0% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
-      -webkit-transform: translateX(calc(-200px * 7));
-      transform: translateX(calc(-200px * 7));
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
   }
 }
 /* *********************/
 /* seccion P O R T F O L I O */
 /* *********************/
-.container-card{
-	width: 100%;
-  padding: 30px;
-  height: 50%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
-}
-.title-cards{
-	width: 100%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 20px;
-	margin-top: 20px;
-	text-align: center;
-	color: #7a7a7a;
-}
-.card{
-	width: 100%;
-	margin: 10px;
-	border-radius: 6px;
-	overflow: hidden;
-	background:#fff;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;
-}
-.card:hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
-}
-.card img{
-	width: 100%;
-	height: 210px;
-}
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
-}
-.card .contenido-card h3{
-	margin-bottom: 15px;
-	color: #7a7a7a;
-}
-.card .contenido-card p{
-	line-height: 1.8;
-	color: #6a6a6a;
-	font-size: 14px;
-	margin-bottom: 5px;
-}
-.card .contenido-card a{
-	display: inline-block;
-	padding: 10px;
-	margin-top: 10px;
-	text-decoration: none;
-	color: #3a3a3a;
-	border: 1px solid #3b3b3b;
-	border-radius: 4px;
-	transition: all 400ms ease;
-	margin-bottom: 5px;
-}
-.card .contenido-card a:hover{
-	background: #0c0c0c;
-	color: #fff;
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-	.container-card{
-		flex-wrap: wrap;
-	}
-	.card{
-		margin: 15px;
-	}
-}
-
- #portfolio {
-  max-width: 1100px;
-  padding: 100px 0;
-  margin: auto;
-}
-
-#portfolio .titulo-seccion {
+#portfolio .titulo {
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
+  background-color: #ffffff;
 }
+#portfolio{
+  background-color: #ffffff ;
+}
+
+.container-card {
+  width: 100%;
+  padding: 30px;
+  height: 50%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+.card {
+  width: 100%;
+  margin: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.card img {
+  width: 100%;
+  height: 210px;
+}
+.card .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+.card .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+.card .contenido-card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3a3a3a;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+.card .contenido-card a:hover {
+  background: #0c0c0c;
+  color: #fff;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 15px;
+  }
+}
+
 /* *********************/
 /* seccion C O N T A C T O */
 /* *********************/
@@ -683,7 +589,7 @@ footer {
   transition: color 0.4s ease;
 }
 .socials a:hover i {
-  color: aqua;
+  color: #0efd3e;
 }
 
 .footer-bottom {
@@ -733,7 +639,7 @@ footer {
   .redes {
     display: none;
   }
-  .idioma{
+  .idioma {
     display: none;
   }
   nav {

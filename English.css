@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #f3f3f3;
 }
 
 /* *********************/
@@ -94,6 +95,17 @@ a {
 #inicio .contenido header .contenido-header .redes a:hover {
   color: #0efd3e;
 }
+#inicio .contenido header .contenido-header .idioma a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+#inicio .contenido header .contenido-header .idioma a:hover {
+  color: #0efd3e;
+}
 
 #inicio .contenido header .contenido-header .seleccionado {
   color: #0efd3e;
@@ -166,7 +178,6 @@ a {
   padding: 100px 15px;
   color: #111135;
   display: flex;
-  background-color: #f3f3f3;
 }
 
 #sobremi .contenedor-foto {
@@ -175,10 +186,10 @@ a {
 }
 
 #sobremi .contenedor-foto img {
-  padding: 20px;
+  padding: 1px;
   width: 100%;
   border-radius: 20px;
-  background-color: #f3f3f3;
+  background-color: #00000004;
 }
 
 #sobremi .sobremi {
@@ -225,7 +236,7 @@ a {
   text-decoration: none;
   color: #000;
   border-radius: 30px;
-  border: 1px solid #000;
+  border: 1px solid #2f2f2f;
   padding: 10px 20px;
   margin-top: 30px;
   transition: 0.5s;
@@ -239,20 +250,22 @@ a {
 /* seccion E D U C A C I O N */
 /* *********************/
 .education .titulo-seccion {
-  padding: 100px 15px;
+  padding: 100px 17px;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
+  background-color: #ffffff;
 }
 
 .education .row {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
+  background-color: #ffffff;
 }
 
 .education .row .column {
@@ -308,8 +321,7 @@ a {
   padding-top: 0.5rem;
   text-align: center;
 }
-.botton{
-  
+.botton {
   display: inline-block;
   text-decoration: none;
   color: #000;
@@ -323,8 +335,8 @@ a {
 }
 
 .botton:hover {
-background-color: #505050;
-color: #fff;
+  background-color: #505050;
+  color: #fff;
 }
 /* *********************/
 /* seccion S E R V I C I O S */
@@ -338,7 +350,7 @@ color: #fff;
 
 #servicios .titulo-seccion {
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
@@ -399,101 +411,7 @@ color: #fff;
   font-size: 14px;
   line-height: 22px;
 }
-/* *********************/
-/* seccion S K I L L S */
-/* *********************/
 
-/* .contenedor-skills {
-  background: linear-gradient(#463434cc, rgba(33, 16, 16, 0.8)),
-    url("img/fondo-skills.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  background-position: center center;
-  padding: 100px 0;
-  text-align: center;
-}
-
-.contenedor-skills .skill {
-  max-width: 600px;
-  margin: 30px auto;
-}
-
-.contenedor-skills .skill .info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contenedor-skills .skill .lista {
-  display: inline-block;
-  margin-right: 20px;
-  height: 10px;
-  width: 10px;
-  background-color: #fff;
-}
-
-.contenedor-skills .skill .barra {
-  background-color: #919191;
-  width: 100%;
-  height: 6px;
-  margin: 10px 0px;
-}
-
-.contenedor-skills .skill .barra .barra-progreso1 {
-  background-color: #fff;
-  width: 95%;
-  height: 6px;
-  animation: progreso1 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso2 {
-  background-color: #fff;
-  width: 90%;
-  height: 6px;
-  animation: progreso2 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso3 {
-  background-color: #fff;
-  width: 90%;
-  height: 6px;
-  animation: progreso3 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso4 {
-  background-color: #fff;
-  width: 85%;
-  height: 6px;
-  animation: progreso4 2s forwards;
-}
-
-@keyframes progreso1 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@keyframes progreso2 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
-@keyframes progreso3 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-} */
 .slider {
   background-color: #f3f3f3;
   width: 100%;
@@ -530,6 +448,20 @@ color: #fff;
 /* *********************/
 /* seccion P O R T F O L I O */
 /* *********************/
+#portfolio .titulo {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 5px;
+  background-color: #ffffff;
+}
+#portfolio{
+  background-color: #ffffff ;
+}
+
 .container-card {
   width: 100%;
   padding: 30px;
@@ -537,6 +469,7 @@ color: #fff;
   display: flex;
   max-width: 1100px;
   margin: auto;
+  background-color: #ffffff;
 }
 .title-cards {
   width: 100%;
@@ -603,21 +536,6 @@ color: #fff;
   }
 }
 
-#portfolio {
-  max-width: 1100px;
-  padding: 100px 0;
-  margin: auto;
-}
-
-#portfolio .titulo-seccion {
-  text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #111135;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
-}
 /* *********************/
 /* seccion C O N T A C T O */
 /* *********************/
@@ -673,7 +591,7 @@ footer {
   transition: color 0.4s ease;
 }
 .socials a:hover i {
-  color: aqua;
+  color: #0efd3e;
 }
 
 .footer-bottom {
@@ -721,6 +639,9 @@ footer {
 
 @media screen and (max-width: 800px) {
   .redes {
+    display: none;
+  }
+  .idioma {
     display: none;
   }
   nav {
