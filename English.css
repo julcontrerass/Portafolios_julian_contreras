@@ -633,6 +633,9 @@ footer {
   box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
   transform: scale(110%);
 }
+.contactmail{
+  color: white;
+}
 /* *********************/
 /* seccion R E S P O N S I V E */
 /* *********************/
