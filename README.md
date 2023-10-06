@@ -1,3 +1,3 @@
-# Portafolios julian contreras
+# Portfolio julian contreras
 Portfolios personal 
 Deploy: https://portafolios-julian-contreras.vercel.app/
