@@ -188,8 +188,12 @@ a {
 #sobremi .contenedor-foto img {
   padding: 1px;
   width: 100%;
-  border-radius: 20px;
+  border-color: transparent;
   background-color: #00000004;
+  mask-image: linear-gradient(
+    #f3f3f3 70%,
+    transparent
+  );
 }
 
 #sobremi .sobremi {
